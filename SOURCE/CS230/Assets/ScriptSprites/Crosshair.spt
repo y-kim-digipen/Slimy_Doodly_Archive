@@ -1,0 +1,5 @@
+assets/Sprites/crosshair.png
+HotSpot 64 64
+FrameSize 128 128
+Frame 0 0
+Anim assets/ScriptAnim/none.anm

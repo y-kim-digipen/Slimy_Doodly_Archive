@@ -1,0 +1,13 @@
+Assets/Sprites/Player.png
+HotSpot 25 0
+FrameSize 50 100
+Frame 0 0
+Frame 50 0
+Frame 100 0
+Frame 150 0
+Frame 200 0
+Anim assets/ScriptAnim/none.anm
+Anim assets/ScriptAnim/Player_Idle.anm
+Anim assets/ScriptAnim/Player_Run.anm
+Anim assets/ScriptAnim/Player_Fall.anm
+Anim assets/ScriptAnim/Player_Jump.anm

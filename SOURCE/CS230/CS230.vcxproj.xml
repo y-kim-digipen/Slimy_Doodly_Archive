@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Animation.cpp" />
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\GameStateManager.cpp" />
+    <ClCompile Include="Engine\Input.cpp" />
+    <ClCompile Include="Engine\Input_Doodle.cpp" />
+    <ClCompile Include="Engine\Logger.cpp" />
+    <ClCompile Include="Engine\Mouse.cpp" />
+    <ClCompile Include="Engine\SoundManager.cpp" />
+    <ClCompile Include="Engine\Sprite.cpp" />
+    <ClCompile Include="Engine\Texture.cpp" />
+    <ClCompile Include="Engine\TextureManager.cpp" />
+    <ClCompile Include="Engine\Timer\Timer.cpp" />
+    <ClCompile Include="Engine\TransformMatrix.cpp" />
+    <ClCompile Include="Engine\Window.cpp" />
+    <ClCompile Include="Game\BackGround.cpp" />
+    <ClCompile Include="Game\Credit.cpp" />
+    <ClCompile Include="Game\EndingTile.cpp" />
+    <ClCompile Include="Game\GameObject.cpp" />
+    <ClCompile Include="Game\GameObjectManager.cpp" />
+    <ClCompile Include="Game\LavaSlime.cpp" />
+    <ClCompile Include="Game\LavaTile.cpp" />
+    <ClCompile Include="Game\Level1.cpp" />
+    <ClCompile Include="Game\Level2.cpp" />
+    <ClCompile Include="Game\Level3.cpp" />
+    <ClCompile Include="Game\Level4.cpp" />
+    <ClCompile Include="Game\Level5.cpp" />
+    <ClCompile Include="Game\LevelSelect.cpp" />
+    <ClCompile Include="Game\Menu.cpp" />
+    <ClCompile Include="Game\MimicSlime.cpp" />
+    <ClCompile Include="Game\NormalSlime.cpp" />
+    <ClCompile Include="Game\NormalTile.cpp" />
+    <ClCompile Include="Game\Options.cpp" />
+    <ClCompile Include="Game\Particle.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="Game\SlimeMovements.cpp" />
+    <ClCompile Include="Game\SlimeObject.cpp" />
+    <ClCompile Include="Game\Splash.cpp" />
+    <ClCompile Include="Game\ScriptTexture.cpp" />
+    <ClCompile Include="Game\Tilemanager.cpp" />
+    <ClCompile Include="Game\TriggerTile.cpp" />
+    <ClCompile Include="Game\TriggerTileManager.cpp" />
+    <ClCompile Include="Game\Tutorial.cpp" />
+    <ClCompile Include="Game\UI.cpp" />
+    <ClCompile Include="Game\WaterSlime.cpp" />
+    <ClCompile Include="Game\WaterTile.cpp" />
+    <ClCompile Include="Game\WaveGun.cpp" />
+    <ClCompile Include="Game\World.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Animation.h" />
+    <ClInclude Include="Engine\BasicDataTypes.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\GameState.h" />
+    <ClInclude Include="Engine\GameStateManager.h" />
+    <ClInclude Include="Engine\Input.h" />
+    <ClInclude Include="Engine\Logger.h" />
+    <ClInclude Include="Engine\Mouse.h" />
+    <ClInclude Include="Engine\SoundManager.h" />
+    <ClInclude Include="Engine\Sprite.h" />
+    <ClInclude Include="Engine\Texture.h" />
+    <ClInclude Include="Engine\TextureManager.h" />
+    <ClInclude Include="Engine\Timer\Timer.h" />
+    <ClInclude Include="Engine\TransformMatrix.h" />
+    <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="Game\BackGround.h" />
+    <ClInclude Include="Game\Credit.h" />
+    <ClInclude Include="Game\EndingTile.h" />
+    <ClInclude Include="Game\GameObject.h" />
+    <ClInclude Include="Game\GameObjectManager.h" />
+    <ClInclude Include="Game\LavaSlime.h" />
+    <ClInclude Include="Game\LavaTile.h" />
+    <ClInclude Include="Game\LavaTileAnim.h" />
+    <ClInclude Include="Game\Level1.h" />
+    <ClInclude Include="Game\Level2.h" />
+    <ClInclude Include="Game\Level3.h" />
+    <ClInclude Include="Game\Level4.h" />
+    <ClInclude Include="Game\Level5.h" />
+    <ClInclude Include="Game\LevelSelect.h" />
+    <ClInclude Include="Game\Menu.h" />
+    <ClInclude Include="Game\MimicSlime.h" />
+    <ClInclude Include="Game\NormalSlime.h" />
+    <ClInclude Include="Game\NormalTile.h" />
+    <ClInclude Include="Game\ObjectSize.h" />
+    <ClInclude Include="Game\Options.h" />
+    <ClInclude Include="Game\Particle.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="Game\Player_Anims.h" />
+    <ClInclude Include="Game\Screens.h" />
+    <ClInclude Include="Game\SlimeMovements.h" />
+    <ClInclude Include="Game\SlimeObject.h" />
+    <ClInclude Include="Game\Slime_anm.h" />
+    <ClInclude Include="Game\Splash.h" />
+    <ClInclude Include="Game\ScriptTexture.h" />
+    <ClInclude Include="Game\Tile.h" />
+    <ClInclude Include="Game\Tilemanager.h" />
+    <ClInclude Include="Game\TriggerTile.h" />
+    <ClInclude Include="Game\TriggerTileManager.h" />
+    <ClInclude Include="Game\Tutorial.h" />
+    <ClInclude Include="Game\UI.h" />
+    <ClInclude Include="Game\WaterSlime.h" />
+    <ClInclude Include="Game\WaterTIle.h" />
+    <ClInclude Include="Game\WaveGun.h" />
+    <ClInclude Include="Game\World.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\BasicDataTypes.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CS230.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\UI\slimydoodly.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{3E3F7615-CF96-43CF-B52E-B9B8B2255D46}</ProjectGuid>
+    <RootNamespace>CS230</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Slimy_Doodly</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Slimy_Doodly</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Slimy_Doodly</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Slimy_Doodly</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\doodle\include;$(SolutionDir)external\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>doodle.lib;Opengl32.lib;Gdi32.lib;User32.lib;sfml-audio-d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\doodle\bin\$(Configuration)\$(Platform);$(SolutionDir)external\SFML\$(Platform)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d /s "$(ProjectDir)assets" "$(TargetDir)assets\"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\openal32.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-audio-d-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-system-d-2.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\doodle\include;$(SolutionDir)external\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>doodle.lib;Opengl32.lib;Gdi32.lib;User32.lib;sfml-audio-d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\doodle\bin\$(Configuration)\$(Platform);$(SolutionDir)external\SFML\$(Platform)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d /s "$(ProjectDir)assets" "$(TargetDir)assets\"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\openal32.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-audio-d-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-system-d-2.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\doodle\include;$(SolutionDir)external\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>doodle.lib;Opengl32.lib;Gdi32.lib;User32.lib;sfml-audio.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\doodle\bin\$(Configuration)\$(Platform);$(SolutionDir)external\SFML\$(Platform)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d /s "$(ProjectDir)assets" "$(TargetDir)assets\"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\openal32.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-audio-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-system-2.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\doodle\include;$(SolutionDir)external\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>doodle.lib;Opengl32.lib;Gdi32.lib;User32.lib;sfml-audio.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\doodle\bin\$(Configuration)\$(Platform);$(SolutionDir)external\SFML\$(Platform)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d /s "$(ProjectDir)assets" "$(TargetDir)assets\"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\openal32.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-audio-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-system-2.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

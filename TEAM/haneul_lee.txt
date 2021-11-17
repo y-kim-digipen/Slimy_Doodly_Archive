@@ -1,0 +1,50 @@
+-Name : 
+Haneul Lee
+
+-Role : 
+Producer
+
+-Main Contributions : 
+Script based Slime objects, Slime object manager, Menu System, Credit Screen
+Sound Managing, Sound(SFXs, BGM) Making, Polishing
+
+-List of files that I worked on :
+Engine/Engine.h
+Engine/SoundManager.cpp
+Engine/SoundManager.h
+Game/GameObjectManager.cpp
+Game/SlimeMovements.cpp
+Game/SlimeMovements.h
+Game/LavaSlime.cpp
+Game/LavaSlime.h
+Game/MimicSlime.cpp
+Game/MimicSlime.h
+Game/NormalSlime.cpp
+Game/NormalSlime.h
+Game/Slime_anm.h
+Game/SlimeObject.cpp
+Game/SlimeObject.h
+Game/WaterSlime.cpp
+Game/WaterSlime.h
+Game/Credit.cpp
+Game/Credit.h
+Game/Menu.cpp
+Game/Menu.h
+Game/LavaTile.cpp
+Game/WaterTile.cpp
+Assets/Credit/Credit_Screen.png
+Assets/SlimeMovements/Slime_Left_Move_3.sms
+Assets/SlimeMovements/Slime_Left_Right_Move_3.sms
+Assets/SlimeMovements/Slime_Left_Right_Move_3_Jump.sms
+Assets/SlimeMovements/Slime_Right_Move_3.sms
+Assets/SFX/jump.wav
+Assets/SFX/melt.wav
+Assets/SFX/slime_hit.wav
+Assets/SFX/slimy_doodly_bgm.wav
+Assets/SFX/wave_gun.wav
+
+-Personal Notes : Being a Producer was really fun and interesting role for me 
+because it was first time for me. I may poor than other producers in other teams,
+however I try my best to do work as Producer. I manage my team members time efficiently,
+divide the works well, etc. I studied many things with these whole things. Now I have great confidence
+with the role 'Producer' to be better than before.

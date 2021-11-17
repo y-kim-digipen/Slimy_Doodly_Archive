@@ -1,0 +1,9 @@
+assets/sprites/Mimicslime.png
+HotSpot 96 0
+FrameSize 192 240
+Frame 0 0
+Frame 192 0
+Frame 384 0
+Frame 576 0
+Anim assets/ScriptAnim/none.anm
+Anim assets/ScriptAnim/Slime_move.anm

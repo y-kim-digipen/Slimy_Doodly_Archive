@@ -1,0 +1,64 @@
+-Name : 
+Yoonki Kim
+
+-Role : 
+Technical Director
+
+-Main Contributions : 
+Core game mechanics, Base classes Design, object and player class design, player design, game mechanic design
+
+-List of files that I worked on :
+Engine.h
+BackGround.cpp
+BackGround.h
+GameObject.cpp
+GameObject.h
+GameObjectManager.cpp
+GameObjectManager.h
+Level1.cpp
+Level1.h
+Level2.cpp
+Level2.h
+Level3.cpp
+Level3.h
+Level4.cpp
+Level4.h
+Level5.cpp
+Level5.h
+Mouse.cpp
+Mouse.h
+Player.cpp
+Player.h
+Screens.h
+ScriptTexture.cpp
+ScriptTexture.h
+WaveGun.cpp
+WaveGun.h
+World.cpp
+World.h
+Timer.h
+Timer.cpp
+
+Assets/
+
+Player.png
+Player_Rage.png
+Wave.png
+bg.png
+Script1.png
+Script2.png
+Script3.png
+Script4.png
+Script5.png
+Script6.png
+Player_Fall.anm
+Player_Idle.anm
+Player_Jump.anm
+Player_Run.anm
+
+
+-Personal Notes : I was always wanted to know how platformer game works. Thanks to Prof. Kevin he covered lots of things we might struggle. And also
+	               Luckly I could work as TD, I could learn from internet and implement platformer games' basic. And also, I choosed the concept not too
+	               complicated, project was hard on prototype and beta period, but after that we do not have lots things to do just polishing. It makes our
+	               teams not get stressed much. And I satisfy my work and what I learned from this project. 
+

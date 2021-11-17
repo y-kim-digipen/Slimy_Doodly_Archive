@@ -1,0 +1,18 @@
+assets/Sprites/WaterTile.png
+HotSpot 0 0
+FrameSize 200 144
+Frame 0 0
+Frame 200 0
+Frame 400 0
+Frame 600 0
+Frame 800 0
+Frame 1000 0
+Frame 1200 0
+Frame 1400 0
+Frame 1600 0
+Frame 1800 0
+Frame 2000 0
+Frame 2200 0
+Anim assets/ScriptAnim/none.anm
+Anim assets/ScriptAnim/WaterTile_move.anm
+Anim assets/ScriptAnim/WaterTile_change.anm

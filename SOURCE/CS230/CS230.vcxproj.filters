@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7755e0b2-3d47-4ec8-bd94-e9155ace6343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0384e346-9dd1-4a9f-8869-c60c1d76d915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels">
+      <UniqueIdentifier>{dadbf767-099a-4107-b7cf-05478934e574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects">
+      <UniqueIdentifier>{b6fe4b83-d76d-4243-b281-8a7fca8e7f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BasicDataTypes">
+      <UniqueIdentifier>{99bf3f65-d4a5-436b-be8b-c54dec00efd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameState">
+      <UniqueIdentifier>{f07d734f-0665-44ce-8e23-86e2fa3398ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Logger">
+      <UniqueIdentifier>{be0b3f23-0e26-4c3a-a7cf-547dc5f3b97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Window">
+      <UniqueIdentifier>{38b8c332-760f-422c-9b0c-6fe2c6f82df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Timer">
+      <UniqueIdentifier>{f0870858-ce93-4777-8115-891a39c5b949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\BackGroundAssets">
+      <UniqueIdentifier>{1792db99-1a3a-4007-875a-b36c59fe38de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\BackGroundAssets\BackGround">
+      <UniqueIdentifier>{ed5c7cd5-ed8e-4049-b0ce-d1effe3d727f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture/Sprite/Animation">
+      <UniqueIdentifier>{8d5831eb-0761-4d0b-a4ca-dc1e32388a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Base Class &amp; Mananger">
+      <UniqueIdentifier>{b4813d94-e150-4d90-b71f-25b2860f84c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Splash">
+      <UniqueIdentifier>{1f375e1e-4fdc-469f-96c7-d6f35cc3c5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Level1">
+      <UniqueIdentifier>{ff07a89e-17cc-4667-8559-60d9d1e40a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Level2">
+      <UniqueIdentifier>{30b9e5f7-b9ad-4c27-8dbf-f4be54b29a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture/Sprite/Animation\Texture">
+      <UniqueIdentifier>{6d0e0caf-3f15-4b62-8236-1a99c793539b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture/Sprite/Animation\Sprite">
+      <UniqueIdentifier>{64786853-ddde-4b4a-9117-5d0d73037155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture/Sprite/Animation\Anmation">
+      <UniqueIdentifier>{23d6f987-c6b4-4e0a-8532-d75a5911d212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{ee708df6-8bcd-4943-8350-cba83fee9b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\PlayerObjects">
+      <UniqueIdentifier>{f41d378d-faf0-46eb-814f-a067874736c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TIles">
+      <UniqueIdentifier>{5516192d-7e2d-47b9-a34e-a5915a92e59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TIles\Base Class &amp; Manager">
+      <UniqueIdentifier>{ad0ae172-07f6-47fd-a5a6-c0c11f12e5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TIles\TIleTypes">
+      <UniqueIdentifier>{15ca5bf8-df11-4554-b1b2-9d634dc0e516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\SlimeObjects">
+      <UniqueIdentifier>{6fe9fdf7-cd00-4495-a99c-0b7a33893b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Tutorial">
+      <UniqueIdentifier>{c328bfd0-ff7d-4026-87f7-e46633e07c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{4e7deecd-1cf1-4fcd-ac4a-66e6c3a974dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Level3">
+      <UniqueIdentifier>{ac0862ca-3f3d-42e4-9032-5e1845b16839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Level4">
+      <UniqueIdentifier>{64b42c4c-1823-4384-9236-d590d0e73ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\LEVELSELECT">
+      <UniqueIdentifier>{daded8df-a827-44e6-893a-c22b978a95df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Level5">
+      <UniqueIdentifier>{16e23201-853c-4693-81ef-1647a5ce4ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{86cb9c81-7ebf-4a66-a3d8-c6f14afef2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Icons">
+      <UniqueIdentifier>{3ec740d7-c922-4b13-b67c-bdd407c43d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Options">
+      <UniqueIdentifier>{cd29d08d-dcdd-4986-8d94-720a5d4b336f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Particles">
+      <UniqueIdentifier>{83e7fbab-05fc-45a3-9ce7-7891fe9d1eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Credits">
+      <UniqueIdentifier>{5529fbb6-c2a5-4a88-9713-585d6eede632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Menu">
+      <UniqueIdentifier>{8e2e354d-848e-42f3-b591-8204a219796f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\BackGroundAssets\ScriptTextures">
+      <UniqueIdentifier>{a2ca4092-6579-4d75-b061-72258556c647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameStateManager.cpp">
+      <Filter>Engine\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Logger.cpp">
+      <Filter>Engine\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window.cpp">
+      <Filter>Engine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Timer\Timer.cpp">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\BackGround.cpp">
+      <Filter>Game\BackGroundAssets\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TransformMatrix.cpp">
+      <Filter>Engine\BasicDataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjectManager.cpp">
+      <Filter>Game\GameObjects\Base Class &amp; Mananger</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Splash.cpp">
+      <Filter>Game\Levels\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine\Texture/Sprite/Animation\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>Engine\Texture/Sprite/Animation\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Animation.cpp">
+      <Filter>Engine\Texture/Sprite/Animation\Anmation</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Mouse.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input_Doodle.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Game\GameObjects\PlayerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject.cpp">
+      <Filter>Game\GameObjects\Base Class &amp; Mananger</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\WaveGun.cpp">
+      <Filter>Game\GameObjects\PlayerObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level1.cpp">
+      <Filter>Game\Levels\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\World.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Tilemanager.cpp">
+      <Filter>Game\TIles\Base Class &amp; Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\EndingTile.cpp">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LavaTile.cpp">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\NormalTile.cpp">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TriggerTile.cpp">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\WaterTile.cpp">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LavaSlime.cpp">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MimicSlime.cpp">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\NormalSlime.cpp">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\WaterSlime.cpp">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TriggerTileManager.cpp">
+      <Filter>Game\TIles\Base Class &amp; Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SlimeMovements.cpp">
+      <Filter>Game\GameObjects\Base Class &amp; Mananger</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureManager.cpp">
+      <Filter>Engine\Texture/Sprite/Animation\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Tutorial.cpp">
+      <Filter>Game\Levels\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SlimeObject.cpp">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SoundManager.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level2.cpp">
+      <Filter>Game\Levels\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level3.cpp">
+      <Filter>Game\Levels\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level4.cpp">
+      <Filter>Game\Levels\Level4</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelSelect.cpp">
+      <Filter>Game\Levels\LEVELSELECT</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level5.cpp">
+      <Filter>Game\Levels\Level5</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Options.cpp">
+      <Filter>Game\Levels\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Particle.cpp">
+      <Filter>Game\GameObjects\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Credit.cpp">
+      <Filter>Game\Levels\Credits</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menu.cpp">
+      <Filter>Game\Levels\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ScriptTexture.cpp">
+      <Filter>Game\BackGroundAssets\ScriptTextures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Screens.h">
+      <Filter>Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\BasicDataTypes.h">
+      <Filter>Engine\BasicDataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameState.h">
+      <Filter>Engine\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameStateManager.h">
+      <Filter>Engine\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Logger.h">
+      <Filter>Engine\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window.h">
+      <Filter>Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Timer\Timer.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\BackGround.h">
+      <Filter>Game\BackGroundAssets\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TransformMatrix.h">
+      <Filter>Engine\BasicDataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjectManager.h">
+      <Filter>Game\GameObjects\Base Class &amp; Mananger</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject.h">
+      <Filter>Game\GameObjects\Base Class &amp; Mananger</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Splash.h">
+      <Filter>Game\Levels\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>Engine\Texture/Sprite/Animation\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>Engine\Texture/Sprite/Animation\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Animation.h">
+      <Filter>Engine\Texture/Sprite/Animation\Anmation</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Mouse.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Game\GameObjects\PlayerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\WaveGun.h">
+      <Filter>Game\GameObjects\PlayerObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level1.h">
+      <Filter>Game\Levels\Level1</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\World.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Tile.h">
+      <Filter>Game\TIles\Base Class &amp; Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Tilemanager.h">
+      <Filter>Game\TIles\Base Class &amp; Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EndingTile.h">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LavaTile.h">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\NormalTile.h">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TriggerTile.h">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\WaterTIle.h">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LavaSlime.h">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MimicSlime.h">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\NormalSlime.h">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\WaterSlime.h">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TriggerTileManager.h">
+      <Filter>Game\TIles\Base Class &amp; Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SlimeMovements.h">
+      <Filter>Game\GameObjects\Base Class &amp; Mananger</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureManager.h">
+      <Filter>Engine\Texture/Sprite/Animation\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Tutorial.h">
+      <Filter>Game\Levels\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SlimeObject.h">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ObjectSize.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Slime_anm.h">
+      <Filter>Game\GameObjects\SlimeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SoundManager.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LavaTileAnim.h">
+      <Filter>Game\TIles\TIleTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level2.h">
+      <Filter>Game\Levels\Level2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level3.h">
+      <Filter>Game\Levels\Level3</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level4.h">
+      <Filter>Game\Levels\Level4</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelSelect.h">
+      <Filter>Game\Levels\LEVELSELECT</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level5.h">
+      <Filter>Game\Levels\Level5</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Game\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Options.h">
+      <Filter>Game\Levels\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Particle.h">
+      <Filter>Game\GameObjects\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Credit.h">
+      <Filter>Game\Levels\Credits</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menu.h">
+      <Filter>Game\Levels\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ScriptTexture.h">
+      <Filter>Game\BackGroundAssets\ScriptTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player_Anims.h">
+      <Filter>Game\GameObjects\PlayerObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\BasicDataTypes.inl">
+      <Filter>Engine\BasicDataTypes</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\UI\slimydoodly.ico">
+      <Filter>Game\Icons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CS230.rc">
+      <Filter>Game\Icons</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
